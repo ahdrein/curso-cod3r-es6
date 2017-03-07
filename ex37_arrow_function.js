@@ -1,6 +1,6 @@
 //Exemplo MDN
 function Pessoa() {
-    //var self = this;
+    var self = this;
     self.idade = 0;
 
     setInterval(() => {
