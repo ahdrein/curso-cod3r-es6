@@ -1,9 +1,9 @@
 var pai = {
-    func() {return 'Pai';}
+    func() { return 'Pai'; }
 };
 
 var filho = {
-    func() { return `${super.func()} + filho`;}
+    func() { return `${super.func()} + filho`; }
 };
 
 Object.setPrototypeOf(filho, pai);
